@@ -11,6 +11,7 @@
 # Resume-XiaoruiWang
  Build my resume using frontend technololies:
 
+* TypeScript
 * React
 * Tainwind CSS
 * Vite
