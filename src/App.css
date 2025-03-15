@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+.content {
+    @apply m-0 w-full font-sans font-semibold text-sm/tight text-neutral-950 text-left tracking-normal overflow-hidden;
+}
+
+.header {
+    @apply flex justify-center items-center w-full font-semibold;
+}
+
+.header-text {
+    @apply my-0 ;
+}
+.header-text-name {
+    @apply text-2xl text-center font-extrabold my-2.5;
+    /* font-size: 24px;
+    text-align: center; */
+}
+.divider {
+    @apply border-t-1 border-t-gray-300 my-3.5;
+    /* width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin: 10px 0; */
+  }
+
+.header-row {
+    @apply flex justify-center items-center flex-wrap text-base font-bold;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
+.header-row-link {
+    @apply flex justify-center items-center flex-wrap text-base;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 13px; */
+}
+
+.header-item {
+    @apply flex justify-start items-center;
+    /* display: flex;
+    margin: 3px 6px 3px 0;
+    align-items: center; */
+}
+.header-item-icon {
+    @apply w-4 mx-1;
+    /* width: 18px;
+    margin: 0 4px; */
+}
+.header-item-left {
+    @apply block;
+    /* display: block; */
+}
+.header-item-right {
+    /* @apply absolute ml-36; */
+    /* position: absolute;
+    margin-left: 150px; */
+    
+    /* text-align: left; */
+}
+.body{
+    @apply w-full;
+    /* width: 100%; */
+}
+.body-education {
+    @apply flex gap-2.5;
+    /* display: flex; */
+}
+.body-title {
+    @apply flex-1 font-bold text-[15px];
+    /* flex: 1;
+    font-weight: bold;
+    font-size: 14px; */
+}
+.body-content {
+    @apply flex-6;
+
+    /* flex: 6; */
+}
+
+.body-content-project-intro {
+    @apply mt-2.5;
+    /* margin: 10px 0 0 0; */
+}
+.body-content-project-des {
+    @apply mt-1.5;
+    /* margin: 10px 0 0 0; */
+}
+
+.body-content-item {
+    @apply flex mb-2.5;
+    /* display: flex;
+    margin-bottom: 10px; */
+}
+.body-content-item-row {
+    @apply flex;
+    /* display: flex; */
+}
+.body-content-item-company {
+    @apply flex justify-start items-center text-[15px];
+    /* display: inline-block; */
+}
+.body-content-item-divider {
+    @apply inline-block mx-2;
+    /* display: inline-block;
+    margin: 0 5px; */
+}
+.body-content-item-row-right {
+    @apply inline-block;
+    /* display: inline-block;
+    margin: 0, 20px, 0, 0; */
+}
+.body-content-item-des {
+    @apply flex-4 mx-2.5;
+    /* flex: 4;
+    font-size: 14px;
+    margin: 0 10px; */
+}
+
+.body-content-item-row {
+    @apply flex justify-start;
+    /* display: flex;
+    justify-content: left; */
+}
+
+li {
+    @apply my-1.5;
+    /* margin: 3px 0; */
+}
+.bold {
+    /* @apply font-bold; */
+    /* font-weight: bold; */
+}
+
