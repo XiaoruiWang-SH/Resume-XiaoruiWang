@@ -12,7 +12,7 @@
     @apply my-0 ;
 }
 .header-text-name {
-    @apply text-2xl text-center font-extrabold my-2.5;
+    @apply text-2xl text-center font-bold my-2.5;
     /* font-size: 24px;
     text-align: center; */
 }
