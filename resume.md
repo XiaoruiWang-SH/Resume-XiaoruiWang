@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" type="text/css" href="resume.css">
+    <link rel="stylesheet" type="text/css" href="./src/resume.css">
   </head>
 </head>
 
@@ -14,16 +14,16 @@
                 <div class="header-item"> Frontend & Backend & Mobile developer & Full-Stack</div>
             </div>
             <div class="header-row">
-                <div class="header-item"><img class="header-item-icon" src="email.png"><div><a href="mailto:xiaorui.wang@usi.ch">xiaorui.wang@usi.ch</a></div></div>
+                <div class="header-item"><img class="header-item-icon" src="./src/assets/email.png"><div><a href="mailto:xiaorui.wang@usi.ch">xiaorui.wang@usi.ch</a></div></div>
                 <div class="header-item">|</div>
-                <div class="header-item"><img class="header-item-icon" src="phone.png"><div>+41 76 217 5438</div></div>
+                <div class="header-item"><img class="header-item-icon" src="./src/assets/phone.png"><div>+41 76 217 5438</div></div>
                 <div class="header-item">|</div>
-                <div class="header-item"><img class="header-item-icon" src="Location.png"><div>Lugano, Switzerland</div></div>
+                <div class="header-item"><img class="header-item-icon" src="./src/assets/Location.png"><div>Lugano, Switzerland</div></div>
             </div>
             <div class="header-row-link">
-                <div class="header-item"><img class="header-item-icon" src="github.png"><div><a href="https://github.com/XiaoruiWang-SH">github.com/XiaoruiWang-SH</a></div></div>
+                <div class="header-item"><img class="header-item-icon" src="./src/assets/github.png"><div><a href="https://github.com/XiaoruiWang-SH">github.com/XiaoruiWang-SH</a></div></div>
                 <div class="header-item">|</div>
-                <div class="header-item"><img class="header-item-icon" src="linkedin.png"><div><a href="https://www.linkedin.com/in/xiaoruiwang-sh/XiaoruiWang-SH">www.linkedin.com/in/xiaoruiwang-sh/</a></div></div>
+                <div class="header-item"><img class="header-item-icon" src="./src/assets/linkedin.png"><div><a href="https://www.linkedin.com/in/xiaoruiwang-sh/XiaoruiWang-SH">www.linkedin.com/in/xiaoruiwang-sh/</a></div></div>
             </div>
         </div>
     </div>
@@ -147,7 +147,7 @@
                 <div>
                     <a href="https://github.com/XiaoruiWang-SH/DApp">
                         <div class="header-item">
-                            <div class="bold">DApp</div><img class="header-item-icon" src="link.png">
+                            <div class="bold">DApp</div><img class="header-item-icon" src="./src/assets/link.png">
                         </div>
                     </a>
                 </div>
@@ -157,7 +157,7 @@
                 <div>
                     <a href="https://github.com/XiaoruiWang-SH/StepApp">
                         <div class="header-item">
-                            <div class="bold">StepApp</div><img class="header-item-icon" src="link.png">
+                            <div class="bold">StepApp</div><img class="header-item-icon" src="./src/assets/link.png">
                         </div>
                     </a>
                 </div>
@@ -167,7 +167,7 @@
                 <div>
                     <a href="https://github.com/XiaoruiWang-SH/WCache">
                         <div class="header-item">
-                            <div class="bold">WCache</div><img class="header-item-icon" src="link.png">
+                            <div class="bold">WCache</div><img class="header-item-icon" src="./src/assets/link.png">
                         </div>
                     </a>
                 </div>
