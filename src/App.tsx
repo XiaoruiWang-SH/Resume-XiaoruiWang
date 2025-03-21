@@ -167,6 +167,17 @@ function App() {
               <div>
                 <div className='font-bold text-[15px]'>
                   <a className="text-blue-700 hover:underline hover:text-purple-700"
+                    href="https://github.com/XiaoruiWang-SH/TODO-Calendar">
+                    <div className="header-item">
+                      <div className="bold">TODO-Calendar</div><img className="header-item-icon" src="./src/assets/link.png"></img>
+                    </div>
+                  </a>
+                </div>
+                <div>A clean, minimalist task management calendar emphasizing simplicity and elegance. Built with React, TypeScript, Redux Toolkit, Tailwind CSS, Node.js/Express, and MySQL. Features intuitive UI and seamless user experience.</div>
+              </div>
+              <div className="mt-2">
+                <div className='font-bold text-[15px]'>
+                  <a className="text-blue-700 hover:underline hover:text-purple-700"
                     href="https://github.com/XiaoruiWang-SH/DApp">
                     <div className="header-item">
                       <div className="bold">DApp</div><img className="header-item-icon" src="./src/assets/link.png"></img>
@@ -176,7 +187,7 @@ function App() {
                 <div>A decentralized auction web app, it involves block chain technology(Smart contract) and frontend(React),
                   backend(Node), database(Mysql). </div>
               </div>
-              <div className="mt-3">
+              <div className="mt-2">
                 <div className='font-bold text-[15px]'>
                   <a className="text-blue-700 hover:underline hover:text-purple-700"
                     href="https://github.com/XiaoruiWang-SH/StepApp">
@@ -188,7 +199,7 @@ function App() {
                 <div>A smart running app for Android, developed in Java, supporting route recording and tracking, along with
                   training plan generation powered by LLM.</div>
               </div>
-              <div className="mt-3">
+              <div className="mt-2">
                 <div className='font-bold text-[15px]'>
                   <a className="text-blue-700 hover:underline hover:text-purple-700"
                     href="https://github.com/XiaoruiWang-SH/WCache">
