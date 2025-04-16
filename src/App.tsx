@@ -11,7 +11,7 @@ function App() {
             <div className="header-row">
               <div> Software Engineer</div>
               <div className="mx-2">|</div>
-              <div> Frontend & Backend & Mobile developer & Full-Stack</div>
+              <div>Frontend & Backend & Mobile developer & Full-Stack</div>
             </div>
             <div className="header-row">
               <div className="header-item"><img className="header-item-icon" src="./src/assets/email.png"></img>
@@ -116,17 +116,14 @@ function App() {
                 <div className='font-medium'>A leading global e-commerce and supply chain technology company.</div>
                 <div className="body-content-project-des">
                   <ul className='list-disc list ml-[2ch]'>
-                    <li>Promoted to P7 from P6 within 2 years due to outstanding performance in designing and implementing a
-                      high-performance mobile web container JDHybrid supporting 100+ business teams and 100M+ page views in
-                      the JD.com app.</li>
+                    <li>Promoted to P7 from P6 within 2 years for architecting and leading the development of JDHybrid, a high-performance mobile web container serving 100M+ daily page views across 100+ business teams.</li>
                     <li>Designed the JDHybrid architecture with a tech stack covering mobile (iOS & Android), frontend (React
                       & Node.js), and backend (Java).</li>
-                    <li>Led the iOS technical team, optimizing page load performance with an offline solution, achieving a 30%
-                      speed improvement and a 92% error reduction.</li>
+                    <li>Spearheaded iOS team innovation, implementing an offline-first solution that reduced page load time by 30% and decreased error rates by 92%, significantly improving user experience.</li>
                   </ul>
                 </div>
               </div>
-              <div className="body-content-project mt-3.5">
+              <div className="body-content-project mt-2">
                 <div className="body-content-item-company font-bold">
                   <div className="body-content-item-row-right">
                     <span className="bold"><a className="text-blue-700 hover:underline hover:text-purple-700"
@@ -149,12 +146,9 @@ function App() {
                 </div>
                 <div className="body-content-project-des">
                   <ul className='list-disc list ml-[2ch]'>
-                    <li>Promoted twice and doubled my salary due to outstanding performance in independently developing the Tu
-                      Xi Express Supermarket iOS app from scratch.</li>
-                    <li>Refactored the iOS app using Swift, improving performance by 60% and reducing the crash rate by 80%.
-                    </li>
-                    <li>Integrated Flutter for cross-platform development, reducing development costs and streamlining iOS and
-                      Android app development.</li>
+                    <li>Achieved rapid career advancement with two promotions for successfully developing and launching the Tu Xi Express Supermarket iOS app, demonstrating exceptional technical leadership.</li>
+                    <li>Led complete app modernization using Swift, resulting in 60% performance improvement and 80% crash rate reduction through advanced architecture and optimization techniques.</li>
+                    <li>Pioneered cross-platform development strategy using Flutter, optimizing development efficiency and maintaining consistent user experience across iOS and Android platforms.</li>
                   </ul>
                 </div>
               </div>
@@ -173,7 +167,7 @@ function App() {
                     </div>
                   </a>
                 </div>
-                <div>A clean, minimalist task management calendar emphasizing simplicity and elegance. Built with React, TypeScript, Redux Toolkit, Tailwind CSS, Node.js/Express, and MySQL. Features intuitive UI and seamless user experience.</div>
+                <div>A clean, minimalist task management calendar application with OAuth2 authentication, built with React/TypeScript/Redux frontend and Spring Boot/MySQL backend. Features real-time updates, responsive design, and JWT-based security. Deployed with Docker and Nginx reverse proxy at  <a className="text-blue-700 hover:underline hover:text-purple-700" href="https://todocalendar.live">todocalendar.live</a>.</div>
               </div>
               <div className="mt-2">
                 <div className='font-bold text-[15px]'>
@@ -218,9 +212,11 @@ function App() {
             <div className="body-title">Technical Skills</div>
             <div className="body-content">
               <div>
-                <div><span className="font-bold">Programming:</span> Java, JavaScript, Objective-C, Swift, C/C++, Python ...</div>
-                <div className='mt-1'><span className="font-bold">Mobile:</span> iOS, Android, Flutter ...</div>
-                <div className='mt-1'><span className="font-bold">Frameworks:</span> React, Node.js, Spring Boot ... </div>
+                <div><span className="font-bold">Programming Languages:</span> Java, TypeScript/JavaScript, Swift, Objective-C, C/C++, Python</div>
+                <div className='mt-1'><span className="font-bold">Frontend:</span> React, Redux, Tailwind CSS, Flutter</div>
+                <div className='mt-1'><span className="font-bold">Backend:</span> Spring Boot, Node.js, MySQL, RESTful APIs</div>
+                <div className='mt-1'><span className="font-bold">Mobile Development:</span> iOS (Swift/Objective-C), Android, Flutter, React Native</div>
+                <div className='mt-1'><span className="font-bold">DevOps & Tools:</span> Docker, Nginx, Git, OAuth2, JWT, CI/CD</div>
               </div>
             </div>
           </div>
