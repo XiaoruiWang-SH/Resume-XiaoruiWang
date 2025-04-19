@@ -116,8 +116,8 @@ function App() {
                 <div className='font-medium'>A leading global e-commerce and supply chain technology company.</div>
                 <div className="body-content-project-des">
                   <ul className='list-disc list ml-[2ch]'>
-                    <li>Promoted to P7 from P6 within 2 years for architecting and leading the development of JDHybrid, a high-performance mobile web container serving 100M+ daily page views across 100+ business teams.</li>
-                    <li>Designed the JDHybrid architecture with a tech stack covering mobile (iOS & Android), frontend (React
+                    <li>Promoted to P7 from P6 within 2 years for architecting and leading the development of <a className="text-blue-700 hover:underline hover:text-purple-700" href="https://github.com/jd-opensource/JDHybrid">JDHybrid</a>, a high-performance mobile web container serving 100M+ daily page views across 100+ business teams.</li>
+                    <li>Designed the <a className="text-blue-700 hover:underline hover:text-purple-700" href="https://github.com/jd-opensource/JDHybrid">JDHybrid</a> architecture with a tech stack covering mobile (iOS & Android), frontend (React
                       & Node.js), and backend (Java).</li>
                     <li>Spearheaded iOS team innovation, implementing an offline-first solution that reduced page load time by 30% and decreased error rates by 92%, significantly improving user experience.</li>
                   </ul>
@@ -167,7 +167,7 @@ function App() {
                     </div>
                   </a>
                 </div>
-                <div>A clean, minimalist task management calendar application with OAuth2 authentication, built with React/TypeScript/Redux frontend and Spring Boot/MySQL backend. Features real-time updates, responsive design, and JWT-based security. Deployed with Docker and Nginx reverse proxy at  <a className="text-blue-700 hover:underline hover:text-purple-700" href="https://todocalendar.live">todocalendar.live</a>.</div>
+                <div>A clean, minimalist task management calendar application with OAuth2 authentication, built with JavaScript/TypeScript/React/Redux frontend and Java/Spring Boot/MySQL backend. Features real-time updates, responsive design, and JWT-based security. Deployed with Docker and Nginx reverse proxy at  <a className="text-blue-700 hover:underline hover:text-purple-700" href="https://todocalendar.live">todocalendar.live</a>.</div>
               </div>
               <div className="mt-2">
                 <div className='font-bold text-[15px]'>
