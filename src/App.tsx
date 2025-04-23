@@ -167,7 +167,10 @@ function App() {
                     </div>
                   </a>
                 </div>
-                <div>A clean, minimalist task management calendar application with OAuth2 authentication, built with JavaScript/TypeScript/React/Redux frontend and Java/Spring Boot/MySQL backend. Features real-time updates, responsive design, and JWT-based security. Deployed with Docker and Nginx reverse proxy at  <a className="text-blue-700 hover:underline hover:text-purple-700" href="https://todocalendar.live">todocalendar.live</a>.</div>
+                <ul className='list-disc list ml-[2ch]'>
+                    <li>A clean, minimalist task management calendar application deployed at <a className="text-blue-700 hover:underline hover:text-purple-700" href="https://todocalendar.live">https://todocalendar.live</a>. Features real-time updates, OAuth2 authentication and JWT-based security.</li>
+                    <li>A web application built with JavaScript/TypeScript/React/Redux/Tailwind CSS/responsive design frontend for mobile and desktop, and Java/Spring Boot/MySQL/RESTful api backend, Deployed with Docker and Nginx reverse proxy at cloud server. </li>
+                  </ul>
               </div>
               <div className="mt-2">
                 <div className='font-bold text-[15px]'>
@@ -214,7 +217,7 @@ function App() {
               <div>
                 <div><span className="font-bold">Programming Languages:</span> Java, TypeScript/JavaScript, Swift, Objective-C, C/C++, Python</div>
                 <div className='mt-1'><span className="font-bold">Frontend:</span> React, Redux, Tailwind CSS, Flutter</div>
-                <div className='mt-1'><span className="font-bold">Backend:</span> Spring Boot, Node.js, MySQL, RESTful APIs</div>
+                <div className='mt-1'><span className="font-bold">Backend:</span> Spring Boot, Node.js, MySQL, RESTful api</div>
                 <div className='mt-1'><span className="font-bold">Mobile Development:</span> iOS (Swift/Objective-C), Android, Flutter, React Native</div>
                 <div className='mt-1'><span className="font-bold">DevOps & Tools:</span> Docker, Nginx, Git, OAuth2, JWT, CI/CD</div>
               </div>
