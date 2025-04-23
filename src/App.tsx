@@ -53,7 +53,7 @@ function App() {
                   </div>
                   <div className="body-content-item-divider">|</div>
                   <div className="body-content-item-row-right">
-                    <span>02/2024 - Today</span>
+                    <span>02/2024 - 02/2026(expected)</span>
                   </div>
                 </div>
                 <div>
