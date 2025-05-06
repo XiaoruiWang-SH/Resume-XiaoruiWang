@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .content {
-    @apply m-0 w-full font-sans font-semibold text-sm/tight text-neutral-950 text-left tracking-normal overflow-hidden;
+    @apply m-0 w-full font-sans text-sm/tight text-neutral-950 text-left tracking-normal overflow-hidden;
 }
 
 .header {

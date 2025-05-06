@@ -116,10 +116,17 @@ function App() {
                 <div className='font-medium'>A leading global e-commerce and supply chain technology company.</div>
                 <div className="body-content-project-des">
                   <ul className='list-disc list ml-[2ch]'>
-                    <li>Promoted to P7 from P6 within 2 years for architecting and leading the development of <a className="text-blue-700 hover:underline hover:text-purple-700" href="https://github.com/jd-opensource/JDHybrid">JDHybrid</a>, a high-performance mobile web container serving 100M+ daily page views across 100+ business teams.</li>
-                    <li>Designed the <a className="text-blue-700 hover:underline hover:text-purple-700" href="https://github.com/jd-opensource/JDHybrid">JDHybrid</a> architecture with a tech stack covering mobile (iOS & Android), frontend (React
-                      & Node.js), and backend (Java).</li>
-                    <li>Spearheaded iOS team innovation, implementing an offline-first solution that reduced page load time by 30% and decreased error rates by 92%, significantly improving user experience.</li>
+                    <li>
+                      <span className='font-bold'>Hybrid Framework Innovation:</span> Architected and optimized <a className="text-blue-700 hover:underline hover:text-purple-700" href="https://github.com/jd-opensource/JDHybrid">JDHybrid</a>,a proprietary hybrid container solution supporting ​100M+ daily page views (PV)​​ and ​4,000+ domains​ across JD's mobile app, leveraging ​WKWebView​ with native enhancements to deliver near-native H5 performance. Key technical contributions:
+                      <ul className='list-disc list ml-[2ch] list-style-square'>
+                        <li><span className='font-bold'>Offline Package Preloading:</span> Designed dynamic resource interception and local caching mechanisms, reducing H5 first-screen latency by ​30%​​ and achieving ​92% instant-load rate​ (from 29.5% baseline).</li>
+                        <li><span className='font-bold'>Hybrid Rendering Engine:</span> Developed a native-H5 hybrid rendering system resolving component mapping/gesture conflicts, boosting video startup speed by ​40%​​ and eliminating image tearing issues.</li>
+                        <li><span className='font-bold'>Bandwidth Optimization:</span> Implemented intelligent resource degradation and incremental updates, reducing CDN peak traffic by ​80%​​ during 618/Singles’ Day campaigns.</li>
+                      </ul>
+                      <li><span className='font-bold'>Technical Influence:</span> Authored 5+ patents, published 10+ articles on JD’s tech blog, and delivered internal workshops on hybrid development best practices. Recognized with ​Top Performer (A+)​​ in 2022.</li>
+                      <li><span className='font-bold'>Promotion & Impact:</span> Accelerated career growth from P6 to P7 within 2 years with ​30% salary increase, recognized for driving technical innovation and business-critical results.</li>
+                    </li>
+
                   </ul>
                 </div>
               </div>
@@ -158,67 +165,54 @@ function App() {
           <div className="body-education">
             <div className="body-title">Projects & Open Source</div>
             <div className="body-content">
-              <div>
-                <div className='font-bold text-[15px]'>
-                  <a className="text-blue-700 hover:underline hover:text-purple-700"
-                    href="https://github.com/XiaoruiWang-SH/TODO-Calendar">
-                    <div className="header-item">
-                      <div className="bold">TODO-Calendar</div><img className="header-item-icon" src="./src/assets/link.png"></img>
-                    </div>
-                  </a>
-                </div>
-                <ul className='list-disc list ml-[2ch]'>
-                    <li>A clean, minimalist task management calendar application deployed at <a className="text-blue-700 hover:underline hover:text-purple-700" href="https://todocalendar.live">https://todocalendar.live</a>. Features real-time updates, OAuth2 authentication and JWT-based security.</li>
-                    <li>A web application built with JavaScript/TypeScript/React/Redux/Tailwind CSS/responsive design frontend for mobile and desktop, and Java/Spring Boot/MySQL/RESTful api backend, Deployed with Docker and Nginx reverse proxy at cloud server. </li>
-                  </ul>
-              </div>
-              <div className="mt-2">
-                <div className='font-bold text-[15px]'>
-                  <a className="text-blue-700 hover:underline hover:text-purple-700"
-                    href="https://github.com/XiaoruiWang-SH/DApp">
-                    <div className="header-item">
-                      <div className="bold">DApp</div><img className="header-item-icon" src="./src/assets/link.png"></img>
-                    </div>
-                  </a>
-                </div>
-                <div>A decentralized auction web app, it involves block chain technology(Smart contract) and frontend(React),
-                  backend(Node), database(Mysql). </div>
-              </div>
-              <div className="mt-2">
-                <div className='font-bold text-[15px]'>
-                  <a className="text-blue-700 hover:underline hover:text-purple-700"
-                    href="https://github.com/XiaoruiWang-SH/StepApp">
-                    <div className="header-item">
-                      <div className="bold">StepApp</div><img className="header-item-icon" src="./src/assets/link.png"></img>
-                    </div>
-                  </a>
-                </div>
-                <div>A smart running app for Android, developed in Java, supporting route recording and tracking, along with
-                  training plan generation powered by LLM.</div>
-              </div>
-              <div className="mt-2">
-                <div className='font-bold text-[15px]'>
-                  <a className="text-blue-700 hover:underline hover:text-purple-700"
-                    href="https://github.com/XiaoruiWang-SH/WCache">
-                    <div className="header-item">
-                      <div className="bold">WCache</div><img className="header-item-icon" src="./src/assets/link.png"></img>
-                    </div>
-                  </a>
-                </div>
-                <div>A high-performance, thread-safe, and lightweight iOS caching library implemented in C++, supporting both
-                  memory and disk caching.</div>
-              </div>
-            </div>
+                            <div>
+                                <div className='font-bold text-[15px]'>
+                                    <a className="text-blue-700 hover:underline hover:text-purple-700"
+                                        href="https://github.com/XiaoruiWang-SH/TODO-Calendar">
+                                        <div className="header-item">
+                                            <div className="bold">TODO-Calendar</div><img className="header-item-icon" src="./src/assets/link.png"></img>
+                                        </div>
+                                    </a>
+                                </div>
+                                <ul className='list-disc list ml-[2ch]'>
+                                    <li>A clean, minimalist task management calendar web application deployed at <a className="text-blue-700 hover:underline hover:text-purple-700" href="https://todocalendar.live">https://todocalendar.live</a>. Features real-time updates, OAuth2 authentication and JWT-based security.</li>
+                                    <li>Built with JavaScript/TypeScript/React/Redux/Tailwind CSS/responsive design frontend for mobile and desktop, and Java/Spring Boot/MySQL/RESTful api backend, Deployed with Docker and Nginx reverse proxy at cloud server. </li>
+                                </ul>
+                            </div>                            
+                            <div className="mt-2">
+                                <div className='font-bold text-[15px]'>
+                                    <a className="text-blue-700 hover:underline hover:text-purple-700"
+                                        href="https://github.com/XiaoruiWang-SH/StepApp">
+                                        <div className="header-item">
+                                            <div className="bold">StepApp</div><img className="header-item-icon" src="./src/assets/link.png"></img>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div>A smart running app for Android, developed in Java, integrating multi-sensor tracking (GPS/accelerometer/gyroscope) and LLM-driven adaptive training plans with real-time route visualization.</div>
+                            </div>
+                            <div className="mt-2">
+                                <div className='font-bold text-[15px]'>
+                                    <a className="text-blue-700 hover:underline hover:text-purple-700"
+                                        href="https://github.com/XiaoruiWang-SH/WCache">
+                                        <div className="header-item">
+                                            <div className="bold">WCache</div><img className="header-item-icon" src="./src/assets/link.png"></img>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div>A high-performance, thread-safe, and lightweight iOS caching library implemented in C++, supporting both
+                                    memory and disk caching.</div>
+                            </div>
+                        </div>
           </div>
           <div className="divider"></div>
           <div className="body-education">
             <div className="body-title">Technical Skills</div>
             <div className="body-content">
               <div>
-                <div><span className="font-bold">Programming Languages:</span> Java, TypeScript/JavaScript, Swift, Objective-C, C/C++, Python</div>
-                <div className='mt-1'><span className="font-bold">Frontend:</span> React, Redux, Tailwind CSS, Flutter</div>
+                <div><span className="font-bold">Programming Languages:</span> JavaScript/TypeScript, Java, Objective-C, Swift, C/C++, Python</div>
+                <div className='mt-1'><span className="font-bold">Frontend:</span> React.js, Redux, Tailwind CSS, Flutter</div>
                 <div className='mt-1'><span className="font-bold">Backend:</span> Spring Boot, Node.js, MySQL, RESTful api</div>
-                <div className='mt-1'><span className="font-bold">Mobile Development:</span> iOS (Swift/Objective-C), Android, Flutter, React Native</div>
+                <div className='mt-1'><span className="font-bold">Mobile Development:</span> iOS, Android, Flutter, React Native</div>
                 <div className='mt-1'><span className="font-bold">DevOps & Tools:</span> Docker, Nginx, Git, OAuth2, JWT, CI/CD</div>
               </div>
             </div>
